@@ -18,6 +18,30 @@ I like working on projects that combine **software engineering + AI**, especiall
 
 I'm also actively improving my problem-solving skills through **DSA and competitive programming**, while building projects that strengthen my understanding of real-world development.
 
+## Projects
+
+### Campus Connect
+Worked as a backend developer on a deployed campus-focused application.
+* Developed and managed backend APIs
+* Worked with databases and server-side processes
+* Integrated Supabase for backend/database functionality
+* Collaborated as part of a team while contributing to the application's backend architecture
+* **Focus:** Backend Development • REST APIs • Supabase • Databases
+* **Contributors:** Aishwarya, Hitesh, Karishma
+
+---
+
+### Intelligent Resume Analyzer
+Built a GenAI-based application that accepts resumes as document input and analyzes their content to provide relevant insights and answers.
+* **Focus:** Generative AI • Document Processing • AI-powered Analysis
+
+---
+
+### Withlove
+Developed a machine-learning-based application for heart disease risk prediction using structured input data.
+* **Focus:** Machine Learning • Data Analysis • Python • Scikit-learn
+* **Contributors:** Jerrin
+
 ### My Goal
 
 To become a strong **AI Engineer** who can understand a problem, design the system, build the backend, integrate AI, and ship a working product.

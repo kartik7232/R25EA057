@@ -49,3 +49,6 @@ To become a strong **AI Engineer** who can understand a problem, design the syst
 > **Learn → Build → Break → Fix → Repeat.**
 
 Feel free to explore my repositories and follow along with my journey!
+
+
+      

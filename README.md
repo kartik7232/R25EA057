@@ -4,6 +4,8 @@ I'm **Chinmayananda Dhupad**, a **B.Tech Artificial Intelligence & Machine Learn
 
 I enjoy turning ideas into working projects — from backend APIs and databases to AI-powered applications. I'm currently strengthening my foundations in **Data Structures & Algorithms, Python, C++, SQL, OOP, and Machine Learning**, while exploring areas like **Generative AI and Agentic AI**.
 
+**Live Portfolio:** [kartik7232.github.io/R25EA057](https://kartik7232.github.io/R25EA057/)
+
 ### Currently Working With
 
 * **Languages:** Python, C, C++, SQL

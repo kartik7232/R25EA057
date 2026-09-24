@@ -1,38 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Chinmayananda Dhupad - Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chinmayananda Dhupad | Portfolio</title>
   <style>
-    body { font-family: sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; line-height: 1.6; }
-    h1, h2 { color: #24292f; }
-    hr { margin: 20px 0; border: none; border-top: 1px solid #ddd; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; color: #1f2328; padding: 24px; max-width: 850px; margin: 0 auto; }
+    header, section { margin-bottom: 36px; }
+    h1 { font-size: 2rem; margin-bottom: 8px; color: #0969da; }
+    h2 { font-size: 1.4rem; border-bottom: 2px solid #eaeef2; padding-bottom: 6px; margin-bottom: 14px; }
+    h3 { font-size: 1.1rem; margin-top: 10px; }
+    ul { padding-left: 20px; margin-top: 6px; }
+    li { margin-bottom: 4px; }
+    .project-card { border: 1px solid #d0d7de; border-radius: 8px; padding: 16px; margin-bottom: 14px; background: #f6f8fa; }
+    .skills-tag { display: inline-block; background: #ddf4ff; color: #0969da; padding: 3px 10px; border-radius: 12px; font-size: 0.85rem; margin: 3px 2px; }
+    a { color: #0969da; text-decoration: none; font-weight: 500; }
+    a:hover { text-decoration: underline; }
   </style>
 </head>
 <body>
-  <h1>Hey, I'm Chinmayananda Dhupad</h1>
-  <p>B.Tech Artificial Intelligence & Machine Learning student.</p>
+  <header>
+    <h1>Chinmayananda Dhupad</h1>
+    <p>B.Tech Artificial Intelligence & Machine Learning Student | Backend & AI Enthusiast</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Passionate about building scalable backend APIs, database systems, and practical machine learning applications. Focused on data structures, algorithms, and real-world system design.</p>
+  </section>
 
   <section id="projects">
     <h2>Projects</h2>
+    <div class="project-card">
+      <h3>Campus Connect</h3>
+      <p>Collaborated as a backend developer building REST APIs and handling database integration using Supabase.</p>
+      <p>Link: <a href="https://github.com/kartik7232/R25EA057" target="_blank">View Repository</a></p>
+    </div>
+    <div class="project-card">
+      <h3>Intelligent Resume Analyzer</h3>
+      <p>GenAI-based application accepting resume inputs and generating contextual candidate evaluation summaries.</p>
+      <p>Link: <a href="https://github.com/kartik7232/R25EA057" target="_blank">View Repository</a></p>
+    </div>
+    <div class="project-card">
+      <h3>Withlove</h3>
+      <p>Machine-learning-based application predicting heart disease risk based on patient clinical parameters using Scikit-learn.</p>
+      <p>Link: <a href="https://github.com/kartik7232/R25EA057" target="_blank">View Repository</a></p>
+    </div>
+  </section>
 
-    <h3>Campus Connect</h3>
-    <p>Worked as a backend developer on a deployed campus-focused application.</p>
+  <section id="skills">
+    <h2>Skills</h2>
+    <div>
+      <span class="skills-tag">Python</span>
+      <span class="skills-tag">C</span>
+      <span class="skills-tag">C++</span>
+      <span class="skills-tag">SQL</span>
+      <span class="skills-tag">FastAPI</span>
+      <span class="skills-tag">REST APIs</span>
+      <span class="skills-tag">Supabase</span>
+      <span class="skills-tag">Scikit-learn</span>
+      <span class="skills-tag">Git</span>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
     <ul>
-      <li>Developed and managed backend APIs</li>
-      <li>Worked with databases and server-side processes</li>
-      <li>Integrated Supabase for backend/database functionality</li>
+      <li>GitHub: <a href="https://github.com/kartik7232" target="_blank">github.com/kartik7232</a></li>
+      <li>Email: <a href="mailto:chinmaydhupad@gmail.com">chinmaydhupad@gmail.com</a></li>
     </ul>
-
-    <hr>
-
-    <h3>Intelligent Resume Analyzer</h3>
-    <p>Built a GenAI-based application that accepts resumes as document input and analyzes their content to provide relevant insights and answers.</p>
-
-    <hr>
-
-    <h3>Withlove</h3>
-    <p>Developed a machine-learning-based application for heart disease risk prediction using structured input data.</p>
   </section>
 </body>
 </html>
